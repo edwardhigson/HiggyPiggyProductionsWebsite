@@ -1,11 +1,16 @@
-#logo {
-    position: relative;
-    margin: auto;
-    top: 240px;
-    height: 200px;
-    width: 200px;
-}
+
 #info {
     position: relative;
-    top: 250px;
+    margin: auto;
+    width: 800px;
+    top: 100px;
+    z-index: 1;
+}
+#info p {
+    text-align: justify;
+}
+#contact {
+    position: relative;
+    top: 290px;
+    z-index: 1;
 }
