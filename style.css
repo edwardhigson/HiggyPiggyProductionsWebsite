@@ -47,6 +47,14 @@ nav {
     font-size: 30px;
     color: black;
 }
+.nav_block > p:not( :hover){
+    color: black;
+    transition: color linear 1s;
+}
+.nav_block > p:hover{
+    color: #666555;
+    transition: color linear 0.15s;
+}
 .nav_break {
     float: left;
     height: 50px;
