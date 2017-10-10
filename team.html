@@ -5,9 +5,24 @@
         <link rel="icon" href="Branding/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="team.css">
+        <link rel="stylesheet" type="text/css" href="projects.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <script>
+            /*
+            $(document).ready(function(){
+                $(".nav_block > p").hover(function(){
+                    $(this).css("color", "grey").fadein(1000);
+                    }, function(){
+                    $(this).css("color", "black").fadein();
+                });
+            });
+            */
+        </script>
     </head>
     <body>
+        <div id="fixed_background">
+            <img src="Images/Sailing3.jpg" height="100%" width="100%">
+        </div>
         <nav>
             <a href="index.html">
                 <div class="nav_block">
@@ -25,7 +40,7 @@
             </div>
             <a href="team.html">
                 <div class="nav_block">
-                 <p>Team</p>
+                    <p>Team</p>
                 </div>
             </a>
             <div class="nav_break">
@@ -36,14 +51,25 @@
                 </div>
             </a>
         </nav>
-        <div style="position: absolute; left: 50%;">
+        <a href="index.html">
             <div id="logo">
                 <img src="Branding/HPP Tran.png" alt="Logo" height="100%" width="100%">
             </div>
+        </a>
+        <div class="helper">
+            <div id="heading">
+                <h1>Our Team</h1>
+            </div>
         </div>
-        <div id="contact">
-            <p>Website in progress.</p>
-            <p>For business enquiries please email <a href="mailto:higgypiggyproductions@outlook.com" target="_top">higgypiggyproductions@outlook.com</a></p>
+        <div id="background_cover">
+            <div class="helper">
+                <main>
+                    <div id="contact">
+                        <p>Website in progress.</p>
+                        <p>For business enquiries please email <a href="mailto:higgypiggyproductions@outlook.com" target="_top">higgypiggyproductions@outlook.com</a></p>
+                    </div>
+                </main>
+            </div>
         </div>
     </body>
 </html>

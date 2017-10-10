@@ -11,6 +11,13 @@
 }
 #contact {
     position: relative;
-    top: 290px;
+    top: 10px;
     z-index: 1;
+}
+#background_cover {
+    position: absolute;
+    height: 450px;
+    width: 100vw;
+    top: 80%;
+    background-color: white;
 }
