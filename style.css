@@ -28,6 +28,7 @@ h1 {
     font-size: 150px;
     color: white;
     font-weight: lighter;
+    text-shadow: 3px 3px rgba(100, 110, 100, 0.5);
 }
 #logo {
     position: absolute;
@@ -61,6 +62,7 @@ nav {
     margin: 7px;
     font-size: 30px;
     color: white;
+    text-shadow: 2px 2px #313131;
 }
 .nav_block > p:not( :hover){
     color: white;
@@ -74,7 +76,7 @@ nav {
     float: left;
     height: 50px;
     width: 1px;
-    background-color: #DDDDDD;
+    background-color: #BBBBBB;
 }
 #heading {
     position: relative;
